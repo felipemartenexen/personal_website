@@ -9,7 +9,7 @@ const translationDictionary = {
         "nav-contact": "Contact",
         "welcome-text-type": "Geospatial Analyst, GIS Developer, Map Creator",
         "intro-name": "Hi! I'm Felipe Martenexen",
-        "learn-more-btn": "Learn More",
+        "learn-more-btn": "Know More",
         "scroll-down-title": "Scroll Down",
         "who-am-i-title": "Who Am I",
         "about-me-title": "About Me",
@@ -113,7 +113,7 @@ const translationDictionary = {
         "contact-title": "Contact Us",
         "email-heading": "Email Us",
         "call-heading": "Call",
-        "phone-number": "+55 93-99155-0307",
+        "phone-number": "+55 61 99638-5317",
     },
     pt: {
         // General Navigation and Headings
@@ -160,7 +160,7 @@ const translationDictionary = {
         "service-2-description": "Use análise espacial para responder rapidamente a situações cruciais.",
         "service-3-title": "Gerenciamento de Dados",
         "service-3-description": "Colete, armazene, mantenha, prepare e compartilhe seus dados.",
-        "service-4-title": "Imagem & Sensoriamento Remoto",
+        "service-4-title": "Sensoriamento Remoto",
         "service-4-description": "Dados de observação da Terra de uma rede de satélites.",
         "service-5-title": "Treinamento",
         "service-5-description": "Estou aqui para apoiar sua jornada de aprendizagem.",
@@ -229,7 +229,7 @@ const translationDictionary = {
         "contact-title": "Contate-nos",
         "email-heading": "Envie-nos um Email",
         "call-heading": "Ligue",
-        "phone-number": "+55 93-99155-0307",
+        "phone-number": "+55 61 99638-5317",
     }
 };
 
@@ -248,9 +248,9 @@ document.getElementById("language-switch").addEventListener("click", function() 
     const currentLanguage = this.getAttribute("data-language") || "en";
     const newLanguage = currentLanguage === "en" ? "pt" : "en";
     this.setAttribute("data-language", newLanguage);
-    this.textContent = newLanguage === "en" ? "Switch to Portuguese" : "Switch to English";
+    this.textContent = newLanguage === "en" ? "Portuguese" : "English";
     switchLanguage(newLanguage);
 });
 
 // Set initial language to English
-switchLanguage("en");
+switchLanguage("pt");
