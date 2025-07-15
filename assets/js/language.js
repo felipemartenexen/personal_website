@@ -4,7 +4,7 @@ const translationDictionary = {
         "nav-home": "Home",
         "nav-about": "About",
         "nav-services": "Services",
-        "nav-portfolio": "Portfolio",
+        "nav-portfolio": "Projects",
         "nav-skills": "Skills",
         "nav-contact": "Contact",
         "welcome-text-type": "Geospatial Analyst, GIS Developer, Map Creator",
@@ -15,7 +15,7 @@ const translationDictionary = {
         "about-me-title": "About Me",
         "get-to-know-me": "Get to know me",
         "projects-title": "Projects",
-        "portfolio-title": "Portfolio",
+        "portfolio-title": "Projects",
         "projects-description": "Discover the innovative projects I have been working on.",
         "create-map-title": "Let's Create a Map",
         "create-map-description": "We can create and develop together.",
@@ -28,7 +28,7 @@ const translationDictionary = {
         "skills-title": "My Skills",
 
         // About Section
-        "who-am-i-heading": "Who Am I",
+        "who-am-i-heading": "Who Am I?",
         "about-me-heading": "About Me",
         "get-to-know-me-description": "Get to know me",
         "about-introduction": "Hi! I'm Felipe Martenexen",
@@ -73,6 +73,15 @@ const translationDictionary = {
         "project-19-title": "WebGIS for Urban Planning",
         "project-20-title": "Spatial Analysis",
         "project-22-title": "Fire Monitoring",
+        "project-23-title": "Analysis of the Burned Area in Brazil",
+        "project-24-title": "Natural Regeneration Potential",
+        "project-25-title": "Election Results",
+        "project-26-title": "Demographic and Socioeconomic Data",
+        "project-27-title": "Geoprocessing Course - Indigenous Land",
+        "project-28-title": "Urban Property Data",
+        "project-29-title": "Property Registration",
+        "project-30-title": "Analysis of Census Data",
+        "project-31-title": "Urban Property Data",
 
         // Modal Titles and Descriptions
         "modal-1-title": "Environmental Monitoring and Regularization",
@@ -107,7 +116,27 @@ const translationDictionary = {
         "modal-16-description": "The spatial analysis of the demographic census is crucial for geomarketing, helping companies identify high market potential areas and optimize location strategies.",
         "modal-22-title": "Fire Monitoring",
         "modal-22-description": "Mapping fire scars using satellite imagery, covering Brazil from 1985 to 2022, with data on fire scars across the entire Brazilian territory.",
-
+        "modal-23-title": "Analysis of the Burned Area in Brazil",
+        "modal-23-description": "Interactive application that brings together consolidated data on the spatial and temporal patterns of wildfires across Brazil’s biomes and other territorial categories from 1985 to 2024, highlighting the main land cover and land use classes affected and the frequency of fire throughout the country.",
+        "modal-24-title": "Natural Regeneration Potential",
+        "modal-24-description": "Study on areas with high potential for natural regeneration, using remote sensing and GIS techniques to identify priority areas for environmental recovery and sustainable management.",
+        "modal-25-title": "Election Results",
+        "modal-25-description": "Application developed to visualize the distribution of votes by polling location for the mayoral election in Altamira-PA in 2024. The project organizes and presents the total votes received at each voting site in an interactive way, making it possible to identify spatial patterns, areas with higher voter concentration, and comparisons across different electoral zones.",
+        "modal-26-title": "Demographic and Socioeconomic Data",
+        "modal-26-description": "Compilation and spatial analysis of IBGE demographic and socioeconomic data to support strategic planning and decision making in public policies and business initiatives.",
+        "modal-27-title": "Geoprocessing Course - Indigenous Land",
+        "modal-27-description": "Content focusing on teaching geoprocessing techniques applied to the management and monitoring of indigenous lands, offering technical training to local leaders and institutions.",
+        "modal-28-title": "Drone Survey for Urban Land Regularization",
+        "modal-28-description": "Aerial survey activity using drones carried out to identify urban properties and support land regularization processes. The mapping generated high-resolution images that allow for precise delineation of lots and buildings, making it easier to identify occupations and update cadastral records. This data is essential for urban planning and for formalizing property ownership.",
+        "modal-29-title": "Property Registration",
+        "modal-29-description": "Project for digital cadastral mapping of urban areas, aiming to improve property registration, facilitate tax collection and ensure legal certainty in ownership.",
+        "modal-30-title": "Analysis of Census Data",
+        "modal-30-description": "Analysis of IBGE census data for the municipality of Barueri, focused on identifying demographic, socioeconomic, and territorial characteristics to support the planning of marketing actions. The study provided insights into population profiles, income distribution, age groups, and other key indicators, enabling the design of targeted campaigns, prioritization of areas, and development of customized communication and service strategies.",
+        "modal-31-title": "Urban Property Data",
+        "modal-31-description": "Integration and analysis of urban property data to assist in municipal planning, real estate valuation and infrastructure management.",
+        "modal-22-title": "Fire Monitoring",
+        "modal-22-description": "The mapping of fire scars from the MapBiomas Fogo project in Brazil was based on image mosaics from Landsat satellites with a spatial resolution of 30 meters. The mapping period was from 1985 to 2022, with monthly and annual data on fire scars covering the entire Brazilian territory.",
+        
         // Contact Section
         "contact-heading": "Get in Touch",
         "contact-title": "Contact Us",
@@ -120,7 +149,7 @@ const translationDictionary = {
         "nav-home": "Início",
         "nav-about": "Sobre",
         "nav-services": "Serviços",
-        "nav-portfolio": "Portfólio",
+        "nav-portfolio": "Projetos",
         "nav-skills": "Habilidades",
         "nav-contact": "Contato",
         "welcome-text-type": "Especialista em Geoprocessamento, Desenvolvedor GIS, Criador de Mapas",
@@ -131,7 +160,7 @@ const translationDictionary = {
         "about-me-title": "Sobre Mim",
         "get-to-know-me": "Conheça mais sobre mim",
         "projects-title": "Projetos",
-        "portfolio-title": "Portfólio",
+        "portfolio-title": "Projetos",
         "projects-description": "Descubra os projetos inovadores em que tenho trabalhado.",
         "create-map-title": "Vamos Criar um Mapa",
         "create-map-description": "Podemos criar e desenvolver juntos.",
@@ -144,7 +173,7 @@ const translationDictionary = {
         "skills-title": "Minhas Habilidades",
 
         // About Section
-        "who-am-i-heading": "Quem Sou Eu",
+        "who-am-i-heading": "Quem Sou Eu?",
         "about-me-heading": "Sobre Mim",
         "get-to-know-me-description": "Conheça mais sobre mim",
         "about-introduction": "Oi! Eu sou Felipe Martenexen",
@@ -154,7 +183,7 @@ const translationDictionary = {
         // Services Section
         "services-heading": "O que Eu Faço",
         "services-title": "Serviços",
-        "service-1-title": "Fazer Mapas",
+        "service-1-title": "Mapas Personalizados",
         "service-1-description": "Os mapas ajudam a encontrar padrões em seus dados, permitindo melhores decisões e ações.",
         "service-2-title": "Analisar Dados",
         "service-2-description": "Use análise espacial para responder rapidamente a situações cruciais.",
@@ -189,6 +218,15 @@ const translationDictionary = {
         "project-19-title": "WebGIS para Planejamento Urbano",
         "project-20-title": "Análise Espacial",
         "project-22-title": "Monitoramento de Fogo",
+        "project-23-title": "Análise da Área Queimada no Brasil",
+        "project-24-title": "Potencial de Regeneração Natural",
+        "project-25-title": "Resultados das Eleições",
+        "project-26-title": "Dados Demográficos e Socioeconômicos",
+        "project-27-title": "Curso de Geoprocessamento - Terra Indígena",
+        "project-28-title": "Dados de Propriedades Urbanas",
+        "project-29-title": "Cadastro de Imóveis",
+        "project-30-title": "Análise de Dados do Censo",
+        "project-31-title": "Dados de Propriedades Urbanas",
 
         // Modal Titles and Descriptions
         "modal-1-title": "Monitoramento e Regularização Ambiental",
@@ -223,7 +261,25 @@ const translationDictionary = {
         "modal-16-description": "A análise espacial do censo demográfico é crucial para o geomarketing, ajudando empresas a identificar áreas de alto potencial de mercado.",
         "modal-22-title": "Monitoramento de Fogo",
         "modal-22-description": "Mapeamento de cicatrizes de fogo usando imagens de satélite, cobrindo o Brasil de 1985 a 2022, com dados sobre cicatrizes de fogo em todo o território brasileiro.",
-
+        "modal-23-title": "Análise da Área Queimada no Brasil",
+        "modal-23-description": "Aplicação interativa que reúne dados consolidados sobre os padrões espaciais e temporais dos incêndios florestais nos biomas e demais categorias territoriais do Brasil de 1985 a 2024, destacando as principais classes de cobertura e uso do solo afetadas e a frequência do fogo em todo o país.",
+        "modal-24-title": "Potencial de Regeneração Natural",
+        "modal-24-description": "Estudo sobre áreas com alto potencial de regeneração natural, utilizando técnicas de sensoriamento remoto e SIG para identificar áreas prioritárias para recuperação ambiental e manejo sustentável.",
+        "modal-25-title": "Resultados das Eleições",
+        "modal-25-description": "Aplicação desenvolvida para visualizar a distribuição dos votos por local de votação na eleição para prefeito em Altamira-PA em 2024. O projeto organiza e apresenta de forma interativa o total de votos recebidos em cada local, possibilitando identificar padrões espaciais, áreas com maior concentração de eleitores e comparações entre diferentes zonas eleitorais.",
+        "modal-26-title": "Dados Demográficos e Socioeconômicos",
+        "modal-26-description": "Compilação e análise espacial de dados demográficos e socioeconômicos do IBGE para subsidiar o planejamento estratégico e a tomada de decisões em políticas públicas e iniciativas empresariais.",
+        "modal-27-title": "Curso de Geoprocessamento - Terra Indígena",
+        "modal-27-description": "Conteúdo voltado ao ensino de técnicas de geoprocessamento aplicadas à gestão e monitoramento de terras indígenas, oferecendo capacitação técnica para lideranças locais e instituições.",
+        "modal-28-title": "Levantamento com Drone para Regularização Fundiária Urbana",
+        "modal-28-description": "Atividade de levantamento aéreo com drones realizada para identificar imóveis urbanos e apoiar processos de regularização fundiária. O mapeamento gerou imagens de alta resolução que permitem a delimitação precisa de lotes e edificações, facilitando a identificação de ocupações e atualização de cadastros. Esses dados são essenciais para o planejamento urbano e para formalização da posse das propriedades.",
+        "modal-29-title": "Cadastro de Imóveis",
+        "modal-29-description": "Projeto de mapeamento cadastral digital de áreas urbanas, visando aprimorar o registro de propriedades, facilitar a arrecadação de impostos e garantir segurança jurídica na posse.",
+        "modal-30-title": "Análise de Dados do Censo",
+        "modal-30-description": "Análise dos dados do censo do IBGE para o município de Barueri, focada em identificar características demográficas, socioeconômicas e territoriais para subsidiar o planejamento de ações de marketing. O estudo forneceu insights sobre perfis populacionais, distribuição de renda, faixas etárias e outros indicadores, permitindo o desenho de campanhas direcionadas, priorização de áreas e desenvolvimento de estratégias personalizadas de comunicação e atendimento.",
+        "modal-31-title": "Dados de Propriedades Urbanas",
+        "modal-31-description": "Integração e análise de dados de propriedades urbanas para auxiliar no planejamento municipal, na avaliação imobiliária e na gestão de infraestrutura.",
+        
         // Contact Section
         "contact-heading": "Entre em Contato",
         "contact-title": "Contate-nos",
@@ -243,14 +299,17 @@ function switchLanguage(language) {
     });
 }
 
-// Event listener for language switch button
-document.getElementById("language-switch").addEventListener("click", function() {
-    const currentLanguage = this.getAttribute("data-language") || "en";
+const languageButton = document.getElementById("language-switch");
+languageButton.setAttribute("data-language", "pt");
+languageButton.textContent = "English"; // idioma alternativo
+
+// Aplica a tradução inicial
+switchLanguage("pt");
+
+languageButton.addEventListener("click", function() {
+    const currentLanguage = this.getAttribute("data-language");
     const newLanguage = currentLanguage === "en" ? "pt" : "en";
     this.setAttribute("data-language", newLanguage);
     this.textContent = newLanguage === "en" ? "Portuguese" : "English";
     switchLanguage(newLanguage);
 });
-
-// Set initial language to English
-switchLanguage("pt");
